@@ -11,8 +11,8 @@ var client = s3.createClient({
 
 var list = client.listObjects({
   s3Params: {
-    Bucket: 'ed-playground',
-    Prefix: 'flywheel'
+    Bucket: 'bucket name',
+    Prefix: 'directory name'
   }
 });
 
