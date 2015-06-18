@@ -1,0 +1,12 @@
+{
+  "name": "s3-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-s3-client": "brzpegasus/node-s3-client#e566c04"
+  }
+}
